@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            display: grid;
+            height:700vh;
+            grid-template-columns:200px 200px 200px 200px;
+            grid-template-rows:200px 200px 200px ;
+            gap:5px
+        }
+        .a{
+            background-color: green;
+            grid-row-start: 1;
+            grid-row-end: 4;
+        }
+        .b{
+            background-color: green; 
+            grid-column-start: 2;
+            grid-column-end: 4; 
+        }
+        .c{
+            background-color:orangered;
+        }
+        .d{
+            background-color:gold;
+        }
+        .e{
+            background-color:orangered;   
+        }
+        .f{
+            background-color:green;
+            grid-column-start: 4;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+           
+        }
+        .g{
+            background-color: orangered;
+        }
+        .h{
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
+    <div class="md">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        <div class="f"></div>
+        <div class="g"></div>
+        <div class="h"></div>
+    </div>
+</body>
+</html>
